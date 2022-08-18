@@ -21,6 +21,7 @@ public class SongsDAO {
 		factory = Persistence.createEntityManagerFactory("hibernate");
 		manager = factory.createEntityManager();
 		transaction = manager.getTransaction();
+		
 	}
 
 	public static void closeConnection1() {
